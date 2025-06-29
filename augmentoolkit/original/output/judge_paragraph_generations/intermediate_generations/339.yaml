@@ -1,0 +1,330 @@
+- content: "You are an expert educational AI that will make a determination as to\
+    \ whether the contents of the paragraph(s) provided are suitable for making educational\
+    \ questions based off of them; these questions should be able to test the knowledge\
+    \ in in the book. If there is sufficiently deep information to make questions\
+    \ about, you will judge it suitable, even if the knowledge being tested does not\
+    \ reflect typical curricula. Essentially: you will determine if provided text\
+    \ is a table of contents, introductory paragraph for a book, etc., or if it actually\
+    \ contains real information that would be worthy to teach and make questions for\
+    \ an examination from. Your task includes first analyzing the text, thinking through\
+    \ whether or not good questions can be made from it. \n\nEnd-of-chapter exercises,\
+    \ or questions that appear in the text BUT DO NOT HAVE A PROVIDED ANSWER, are\
+    \ not suitable for question generation, since it should be assumed that the creator\
+    \ of the questions must rely on the information in the text to get their answers.\n\
+    \nTables of contents are not suited for educational questions.\n\n\nFollowing\
+    \ this, at the very end of your response, you will write \"Suitable\" or \"Not\
+    \ suitable\". It is imperative that you write one of these two things, as your\
+    \ answer is being automatically processed by a regex, so it must match one of\
+    \ those two strings exactly."
+  role: system
+- content: "Text: \n\"\"\"\nThe Project Gutenberg eBook of Through England on a side\
+    \ saddle\n    \nThis ebook is for the use of anyone anywhere in the United States\
+    \ and\nmost other parts of the world at no cost and with almost no restrictions\n\
+    whatsoever. You may copy it, give it away or re-use it under the terms\nof the\
+    \ Project Gutenberg License included with this ebook or online\nat www.gutenberg.org.\
+    \ If you are not located in the United States,\nyou will have to check the laws\
+    \ of the country where you are located\nbefore using this eBook.\n\nTitle: Through\
+    \ England on a side saddle\n        In the time of William and Mary\n\n\nAuthor:\
+    \ Celia Fiennes\n\nContributor: Emily W. Griffiths\n\nRelease date: November 17,\
+    \ 2023 [eBook #72156]\n\nLanguage: English\n\nOriginal publication: London: Simpkin,\
+    \ Marshall & Co.; Hamilton, Adams & Co, 1888\n\nCredits: Steve Mattern, Barry\
+    \ Abrahamsen, and the Online Distributed Proofreading Team at https://www.pgdp.net\
+    \ (This book was produced from images made available by the HathiTrust Digital\
+    \ Library.)\n\n\n*** START OF THE PROJECT GUTENBERG EBOOK THROUGH ENGLAND ON A\
+    \ SIDE SADDLE ***\n\n\n\n\n                            Through England\n\n   \
+    \                         On a Side Saddle\n\n\n                    IN THE TIME\
+    \ OF WILLIAM AND MARY\n\n\n                           BEING THE DIARY OF\n\n \
+    \                           _CELIA FIENNES._\n\n\n                           \
+    \  --------------\n\n\n                        WITH AN INTRODUCTION BY\n\n   \
+    \                     THE HON. MRS GRIFFITHS.\n\n\n\n\n                      \
+    \   ---------------------\n\n\n\n\n                                _LONDON:\n\
+    \                Field & Tuer, The Leadenhall Press, E.C.\n            Simpkin,\
+    \ Marshall & Co.; Hamilton, Adams & Co._\n\n                               ----------\n\
+    \n          _New York: Scribner & Welford, 743 & 745, Broadway._\n\n         \
+    \                          --\n\n                                  1888\n\n\n\
+    ------------------------------------------------------------------------\n\"\"\
+    \""
+  role: user
+- content: "## Reasoning and thought process:\nStep 1. Identify Paragraph Content:\
+    \ This paragraph is from the introductory section of \"Through England on a Side\
+    \ Saddle\" by Celia Fiennes, including copyright and publication information.\n\
+    Step 2. Evaluate Educational Relevance: The paragraph contains legal, copyright,\
+    \ and publication information specific to the book's distribution and not its\
+    \ content.\nStep 3. Assess Specific Contexts and Formats:\n  - Purely Descriptive\
+    \ Lists: The paragraph is a descriptive list of publication details without educational\
+    \ content.\n  - Dialogues or Quotes Without Context: Not applicable.\n  - Ambiguous\
+    \ or Unclear Texts: The text is clear but lacks educational substance.\nStep 4.\
+    \ Assess the Possibility of Formulating Questions: The paragraph's content does\
+    \ not lend itself to educational questions due to its focus on publication rather\
+    \ than substantive content.\nStep 5. Final Judgment: Unsuitable for educational\
+    \ questions."
+  role: assistant
+- content: 'Text:
+
+    """
+
+
+    1. Apples, 2. Oranges, 3. Bananas, 4. Grapes, 5. Papayas, 6. Pomegranates, 7.
+    Cherries. Sarah wandered through the market. Amidst her thoughts, she overheard
+    a conversation:
+
+
+    "Did you hear about the mayor''s decision?" asked John.
+
+    "It''s quite surprising, isn''t it?" replied Emily, her voice tinged with disbelief.
+
+    "I know, right? But what can we do?" John sighed.
+
+
+    Sarah continued her shopping, her mind now on the mayor''s mysterious decision.
+
+    """
+
+
+    Note that even blunt facts can be suitable for questions, and unconventional knowledge
+    is not necessarily unsuitable. Fictional stories that contain strong morals or
+    philosophy can also have good questions made from them. But legal notices, metadata,
+    and tables of contents are not suitable. Lists of information without the context
+    needed for the question-maker to understand the text; quotes or dialogues without
+    context or clear depth; or ambiguous content that isn''t precise enough to "nail
+    down" a solid question from, are not valid.'
+  role: user
+- content: "## Reasoning and thought process:\nStep 1. Identify Paragraph Content:\
+    \ The paragraph appears to be from a narrative, including a list and a snippet\
+    \ of overheard conversation.\nStep 2. Evaluate Educational Relevance: The paragraph\
+    \ contains a simple list of fruits and an unrelated, context-less dialogue, offering\
+    \ little educational substance.\nStep 3. Assess Specific Contexts and Formats:\n\
+    \  - Purely Descriptive Lists: The list is purely descriptive, providing no educational\
+    \ context or analytical significance. Further, there's no context about what it\
+    \ could be about.\n  - Dialogues or Quotes Without Context: The conversation about\
+    \ the mayor's decision lacks context and background, making it difficult to derive\
+    \ any educational content.\n  - Ambiguous or Unclear Texts: While not ambiguous,\
+    \ the paragraph's content does not contribute to a clear narrative or concept\
+    \ that has philosophical or educational relevance.\nStep 4. Assess the Possibility\
+    \ of Formulating Questions: Due to the lack of contextual or thematic depth, formulating\
+    \ educational questions from this paragraph is challenging.\nStep 5. Final Judgment:\
+    \ Unsuitable for educational questions."
+  role: assistant
+- content: 'Text:
+
+    """
+
+    If, then, we represent our earth as a little ball of one inch diameter, the sun
+    would be a big globe nine feet across and 323 yards away, that is about a fifth
+    of a mile, four or five minutes’ walking. The moon would be a small pea two feet
+    and a half from the world.  Between earth and sun there would be the two inner
+    planets, Mercury and Venus, at distances of one hundred and twenty-five and two
+    hundred and fifty  yards from the sun. All round and about these bodies there
+    would be  emptiness until you came to Mars, a hundred and seventy-five feet beyond
+    the earth; Jupiter nearly a mile away, a foot in diameter; Saturn, a little smaller,
+    two miles off; Uranus four miles off and Neptune six miles off. Then nothingness
+    and nothingness except for small particles and drifting scraps of attenuated vapour
+    for thousands of miles.
+
+    """
+
+
+    Note that even blunt facts can be suitable for questions, and unconventional knowledge
+    is not necessarily unsuitable. Fictional stories that contain strong morals or
+    philosophy can also have good questions made from them. But legal notices, metadata,
+    and tables of contents are not suitable. Lists of information without the context
+    needed for the question-maker to understand the text; quotes or dialogues without
+    context or clear depth; or ambiguous content that isn''t precise enough to "nail
+    down" a solid question from, are not valid.'
+  role: user
+- content: "## Reasoning and thought process:\nStep 1. Identify Paragraph Content:\
+    \ This describes a scale model of the solar system.\nStep 2. Evaluate Educational\
+    \ Relevance: The paragraph contains analogies and information about the solar\
+    \ system's scale and distances between celestial bodies.\nStep 3. Assess Specific\
+    \ Contexts and Formats:\n  - Purely Descriptive Lists: While the paragraph lists\
+    \ celestial bodies and their distances, it does so to illustrate a scientific\
+    \ concept, providing educational value.\n  - Dialogues or Quotes Without Context:\
+    \ Not applicable.\n  - Ambiguous or Unclear Texts: The paragraph is clear and\
+    \ offers a concrete concept in astronomy.\nStep 4. Assess the Possibility of Formulating\
+    \ Questions: The content enables the creation of educational questions about astronomy,\
+    \ scale, and the solar system's structure.\nStep 5. Final Judgment: Suitable for\
+    \ educational questions."
+  role: assistant
+- content: 'Text:
+
+    """
+
+    In the world of science, there are countless mysteries and phenomena that elude
+    easy explanation. For instance, certain forces and energies interact in ways that
+    are not fully understood, shaping the universe in subtle and profound manners.
+    These interactions often occur at levels beyond human perception, leaving much
+    to speculation and theory. Various scientific disciplines attempt to explain these
+    interactions, each offering unique perspectives but often lacking definitive answers.
+    The vastness of these mysteries spans from the minuscule quantum realm to the
+    expansive cosmos, hinting at complexities that challenge our current understanding.
+
+    """
+
+
+    Note that even blunt facts can be suitable for questions, and unconventional knowledge
+    is not necessarily unsuitable. Fictional stories that contain strong morals or
+    philosophy can also have good questions made from them. But legal notices, metadata,
+    and tables of contents are not suitable. Lists of information without the context
+    needed for the question-maker to understand the text; quotes or dialogues without
+    context or clear depth; or ambiguous content that isn''t precise enough to "nail
+    down" a solid question from, are not valid.'
+  role: user
+- content: "## Reasoning and thought process:\nStep 1. Identify Paragraph Content:\
+    \ The paragraph discusses the complexity and mystery of scientific phenomena,\
+    \ mentioning interactions of forces and energies in the universe.\nStep 2. Evaluate\
+    \ Educational Relevance: The paragraph touches on scientific themes and makes\
+    \ a number of broad claims.\nStep 3. Assess Specific Contexts and Formats:\n \
+    \ - Purely Descriptive Lists: Not applicable.\n  - Dialogues or Quotes Without\
+    \ Context: Not applicable.\n  - Ambiguous or Unclear Texts: The text is ambiguous\
+    \ and lacks clarity. It refers to scientific phenomena and theories without providing\
+    \ specific examples or concrete information, making it difficult to derive clear\
+    \ educational questions.\nStep 4. Assess the Possibility of Formulating Questions:\
+    \ Due to its vagueness and lack of specific content, the paragraph does not lend\
+    \ itself well to formulating meaningful educational questions.\nStep 5. Final\
+    \ Judgment: Unsuitable for educational questions due to its ambiguous and unclear\
+    \ content."
+  role: assistant
+- content: 'Text:
+
+    """
+
+    The Brussels Conference on the subject                               95
+
+
+    Illustrations of barbarous reprisals                                 97
+
+
+    Instances of non-retaliation                                         98
+
+
+    Savage reprisals in days of chivalry                                100
+
+
+    Hanging the commonest reprisals for a brave defence                 101
+
+
+    As illustrated by the warfare of the fifteenth century              102
+
+
+    Survival of the custom to our own times                             104
+
+
+    The massacre of a conquered garrison still a law of war             105
+
+
+    The shelling of Strasburg by the Germans                            106
+
+
+    Brutal warfare of Alexander the Great                               107
+
+
+    The connection between bravery and cruelty                          110
+
+
+    The abolition of slavery in its effects on war                      112
+
+
+    The storming of Magdeburg, Brescia, and Rome                        112
+
+
+    Cicero on Roman warfare                                             114
+
+
+    The reprisals of the Germans in France in 1870                      115
+
+
+    Their revival of the custom of taking hostages                      117
+
+
+    Their resort to robbery as a plea of reprisals                      118
+
+
+    General Von Moltke on perpetual peace                               119
+
+
+    The moral responsibility of the military profession                 121
+
+    """
+
+
+    Note that even blunt facts can be suitable for questions, and unconventional knowledge
+    is not necessarily unsuitable. Fictional stories that contain strong morals or
+    philosophy can also have good questions made from them. But legal notices, metadata,
+    and tables of contents are not suitable. Lists of information without the context
+    needed for the question-maker to understand the text; quotes or dialogues without
+    context or clear depth; or ambiguous content that isn''t precise enough to "nail
+    down" a solid question from, are not valid.'
+  role: user
+- content: "## Reasoning and thought process:\nStep 1. Identify Paragraph Content:\
+    \ The given text lists various war-related events and headings, as well as numbers.\
+    \ It may be assumed that this is a table of contents.\nStep 2. Evaluate Educational\
+    \ Relevance: The paragraph simply lists events, without any supporting detail\
+    \ behind them.\nStep 3. Assess Specific Contexts and Formats:\n  - Purely Descriptive\
+    \ Lists: Applicable. This is a list of sections in a book.\n  - Dialogues or Quotes\
+    \ Without Context: Not applicable.\n  - Ambiguous or Unclear Texts: The text is\
+    \ ambiguous and lacks clarity. It refers to scientific phenomena and theories\
+    \ without providing specific examples or concrete information, making it difficult\
+    \ to derive clear educational questions.\nStep 4. Assess the Possibility of Formulating\
+    \ Questions: Due to its lack of depth, the table of contents does not lend itself\
+    \ well to formulating meaningful educational questions.\nStep 5. Final Judgment:\
+    \ Due to being a table of contents, this is not suited for educational questions."
+  role: assistant
+- content: "Text: \n\"\"\"\nowledge argument Jackson, Magdalena Balcerak 198 Kaplan,\
+    \ David 292–293 Keeley, Brian 220 Kim, Jaegwon 71, 79–80 Kirk, Robert 38 know-how\
+    \ 34 knowledge argument 27, 31–35, 61–64 knowledge-that 34 Kripke, Saul 296–298\
+    \ Kurzweil, Ray 261 law of economics 78–79 Leibniz, Gottfried Wilhelm 3–4, 9–11\
+    \ Lewis, David K. 87–90, 293 linguistic meaning: background on 139; case overview\
+    \ 140–141; discussion 141–144 Locke, John: inverted qualia cases 116; materialism\
+    \ and 9; memory theory 238, 241–243; mind, as blank slate 190; Molyneux’s problem\
+    \ and 183, 185–188; physical theory and 240–241; self/selfhood 237–238 logical\
+    \ possibility 14 Luminous Room argument 107–108 Macpherson, Fiona 222 mad pain\
+    \ and Martian pain argument: background on 87; case overview 88; discussion 88–90\
+    \ Mandelbaum, Eric 209 Mary case: background on 31; case overview of 31–32, 192–193;\
+    \ discussion 32–35; epistemic gap in 61; Experienced Mary 35; Inverse Mary 35;\
+    \ Inverted Mary 35; RoboMary 35; Subliminal Mary 35; Swamp Mary 35 Masham, Damaris\
+    \ 9 materialism: case overview of 9–10; discussion 10–11; Leibniz on 9; Locke\
+    \ on 9; perceptual experiences and 9–11; phenomenal consciousness and 9; thinking/\
+    \ thoughts and 9–11; types A, B, and C 22–23, 58; see also physicalism Maxwell,\
+    \ James Clerk 107 McGinn, Colin 21 McGurk effect 220 McKinnon, Rachel 310 Melnyk,\
+    \ Andrew 123 memory connections 267–268 memory theory 238, 241–243 mental causation\
+    \ problem 71–75, 158 mental content: background on 146–147; case overview 147–149;\
+    \ discussion 149–150; introduction to 1–2; Swampman case 146–150; Twin Earth case\
+    \ 155–156 mental imagery 198–199 mental phenomena 4, 9, 68–69, 71, 75, 82, 87,\
+    \ 124, 129–131 mental states: aliefs 184, 209–210; behaviorism and 197–198; externalism\
+    \ and 153–158, 161; imagination and 208–210; internalism 153–157; inverted qualia\
+    \ and 115, 118, 120; representationalism and 148–149; Swampman case 146–150 Mercury’s\
+    \ orbit 56–57 metaphysical possibility 14 Index 331 metaphysics: nature of consciousness\
+    \ and 1–2, 15, 28–29, 61, 183; physicalist theories and 67–69; zombie argument\
+    \ and 41–42 Millian principle 173–174 Millikan, Ruth 147 Mill, John Stuart 173–174\
+    \ Mills, Charles 302 mind-body dualism: causation and 67; Descartes on 13, 18,\
+    \ 67–68, 157; exclusion problem 70–75; interactionist dualism 33; introduction\
+    \ to 1–4; not fundamentally mental 125; property dualism 4, 28, 32–33, 71–75,\
+    \ 282; substance dualism 3–4, 70 mind uploading case: background on 260–261; case\
+    \ overview 261–263; discussion 263–266 misperceptions 200–201 missing shade of\
+    \ blue case: background on 190–191; case overview 191; discussion 191–193 Molyneux’s\
+    \ problem: background on 185; case overview 185–186; discussion 186–188 Molyneux,\
+    \ William 183, 186 mongrel concept 230 Montero, Barbara Gail 129–130 Moore, G.\n\
+    \"\"\"\n\nNote that even blunt facts can be suitable for questions, and unconventional\
+    \ knowledge is not necessarily unsuitable. Fictional stories that contain strong\
+    \ morals or philosophy can also have good questions made from them. But legal\
+    \ notices, metadata, and tables of contents are not suitable. Lists of information\
+    \ without the context needed for the question-maker to understand the text; quotes\
+    \ or dialogues without context or clear depth; or ambiguous content that isn't\
+    \ precise enough to \"nail down\" a solid question from, are not valid."
+  role: user
+- content: "## Reasoning and thought process:\nStep 1. Identify Paragraph Content:\
+    \ The given text appears to be a list of references, likely from a philosophical\
+    \ or academic text.\nStep 2. Evaluate Educational Relevance: The list contains\
+    \ names of philosophers, theories, and concepts related to the philosophy of mind,\
+    \ consciousness, and related topics.\nStep 3. Assess Specific Contexts and Formats:\n\
+    \  - Purely Descriptive Lists: Applicable. This is a list of references, likely\
+    \ from a bibliography or index.\n  - Dialogues or Quotes Without Context: Not\
+    \ applicable.\n  - Ambiguous or Unclear Texts: The text is clear and provides\
+    \ a list of references, but it lacks context and depth to support the creation\
+    \ of educational questions.\nStep 4. Assess the Possibility of Formulating Questions:\
+    \ While the list provides a foundation for exploring philosophical concepts, it\
+    \ is not sufficient on its own to create meaningful educational questions.\nStep\
+    \ 5. Final Judgment: Not suitable for educational questions due to its lack of\
+    \ depth and context."
+  role: assistant
+  timeout: false

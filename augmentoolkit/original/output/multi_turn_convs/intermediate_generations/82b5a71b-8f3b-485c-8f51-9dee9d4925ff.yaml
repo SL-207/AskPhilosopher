@@ -1,0 +1,484 @@
+- content: 'You are an expert at creative writing and educational material. You will
+    write a short conversation between a curious user and an AI assistant, in which
+    the user asks some questions and the AI assistant answers them. The questions
+    the user asks will be provided; the answers the assistant should return will also
+    be provided. You must use these questions and answers directly in your conversation.
+
+
+    **Rules for conversation writing:**
+
+
+    * Messages can take place across multiple lines.
+
+    * The questions and answers should be essentially the same as provided, though
+    you may add "conversational fluff" around the core of the questions and answers
+    in order to make it natural-sounding.
+
+    * The user should make the first message, where they greet the AI and ask their
+    first question.
+
+    * The AI then provides an answer. And that back-and-forth continues until all
+    questions are asked and all answers are provided.
+
+    * Use Markdown formatting.
+
+    * If applicable, try to make the context behind the questions make sense. So if
+    a person''s asking about an error, they probably aren''t just asking about it
+    out of the blue — they''ve probably encountered the error.
+
+    * You are allowed to slightly change the wording of the questions, and remove
+    duplication, in order to make the conversation flow nicer.
+
+    * You will be provided special instructions on what kind of AI assistant is having
+    the conversation. You should follow these instructions to the best of your ability.'
+  role: system
+- content: '**QUESTION:**
+
+    How does the slope ''m'' in a linear function y = mx + b affect the graph of the
+    function?
+
+
+    **ANSWER:**
+
+    The slope ''m'' in a linear function determines the steepness and direction of
+    the line on the graph. A positive slope means the line ascends from left to right,
+    while a negative slope indicates it descends. The steeper the slope, the more
+    inclined or declined the line is on the graph.
+
+
+    **QUESTION:**
+
+    What role does the y-intercept ''b'' play in graphing a linear function?
+
+
+    **ANSWER:**
+
+    The y-intercept ''b'' in the linear function equation y = mx + b represents the
+    point where the line crosses the y-axis.
+
+
+    **QUESTION:**
+
+    In the equation of a quadratic function y = ax² + bx + c, how does the coefficient
+    ''a'' influence the graph of the function?
+
+
+    **ANSWER:**
+
+    The coefficient ''a'' in a quadratic function determines the opening direction
+    and the width of the parabola.
+
+
+    **QUESTION:**
+
+    In what fields might you use linear and quadratic functions?
+
+
+    **ANSWER:**
+
+    Linear and quadratic functions appear frequently in various fields, such as physics,
+    economics, and engineering.
+
+
+    -- AI Assistant Instructions --
+
+    For this conversation, you are generating a chat between a general-purpose AI
+    assistant and a human.'
+  role: user
+- content: '## Conversation that answers the provided questions:
+
+    **User:**
+
+    I was wondering about something in math. How does the slope ''m'' in a linear
+    function y = mx + b affect the graph of the function?
+
+
+    **AI Assistant:**
+
+    Great question! The slope ''m'' in a linear function determines the steepness
+    and direction of the line on the graph. A positive slope means the line ascends
+    from left to right, while a negative slope indicates it descends. The steeper
+    the slope, the more inclined or declined the line is on the graph. Do you have
+    any further questions about linear functions?
+
+
+    **User:**
+
+    Yes, actually. What role does the y-intercept ''b'' play in graphing a linear
+    function?
+
+
+    **AI Assistant:**
+
+    I''ll explain that for you! The y-intercept ''b'' in the linear function equation
+    y = mx + b represents the point where the line crosses the y-axis. Can I assist
+    you further with linear functions?
+
+
+    **User:**
+
+    Moving on to another type of function, in the equation of a quadratic function
+    y = ax² + bx + c, how does the coefficient ''a'' influence the graph of the function?
+
+
+    **AI Assistant:**
+
+    The coefficient ''a'' in a quadratic function determines the opening direction
+    and the width of the parabola. Is there anything else you want to know about quadratic
+    functions or math in general?
+
+
+    **User:**
+
+    Yes, one more. In what fields might you use linear and quadratic functions?
+
+
+    **AI Assistant:**
+
+    Linear and quadratic functions appear frequently in various fields, such as physics,
+    economics, and engineering. Anything else you''d like to know about linear and
+    quadratic functions?'
+  role: assistant
+- content: '**QUESTION:**
+
+    What are VerusIDs?
+
+
+    **ANSWER:**
+
+    VerusIDs are a fully-functional blockchain protocol. They are a form of crypto-address,
+    a unique identifier that serves as a destination for sending and receiving digital
+    assets. Being more than just an ID system, VerusIDs do not involve corporations
+    in the protocol, and provide benefits such as (but not limited to): revocability,
+    recoverability, privacy, full decentralization, and quantum-ready friendly crypto
+    addresses on the Verus worldwide network.
+
+
+    **QUESTION:**
+
+    What does "quantum-ready friendly crypto-addresses" mean, in the context of Verus
+    and VerusIDs?
+
+
+    **ANSWER:**
+
+    The phrase "quantum-ready friendly crypto-addresses," in the context of Verus
+    and VerusIDs, refers to the resistance of VerusIDs against attack by quantum computers
+    that use existing algorithms. Furthermore, with a quantum-secure signature scheme
+    for transactions, it becomes possible to change an ID and have all the funds sent
+    to it be made retroactively quantum resistant. VerusIDs may also be used to publish
+    ID to destination mappings on other blockchains; however, only the Verus ecosystem
+    can revoke, recover, or inherit funds in existing UTXOs.
+
+
+    The basic idea is that quantum computers, once invented, have the potential to
+    break many cryptographic algorithms used to secure digital assets. Therefore,
+    VerusIDs being "quantum-ready" means that they have been designed to be resistant
+    to attempts by quantum computers (using known algorithms) to attack them, once
+    such computers are created. This is an essential measure to future-proof Verus
+    against exploitation by hostile actors with quantum computers.
+
+
+    **QUESTION:**
+
+    What does it mean for VerusIDs to be a fully decentralized protocol?
+
+
+    **ANSWER:**
+
+    A number of factors make VerusIDs fully decentralized. VerusIDs can be created
+    by anyone, without needing permission from a central authority, and give their
+    creator complete, self-sovereign control over their own ID. The costs incurred
+    creating an ID go to miners, stakers, and ID referrers — essentially, the community
+    members who help maintain Verus — rather than single entity like a corporation
+    or government. VerusIDs can be revoked or recovered by another ID if specified
+    (by default, the revocation authority and recovery authority are the ID itself).
+
+
+    Essentially, VerusIDs being fully decentralized means that neither their creation,
+    usage, or recovery/revocation need to be managed or approved by a central authority
+    — the community supports the transaction. This allows individuals using VerusID
+    to be self-sovereign: they have full control over their digital identity, data,
+    and assets.
+
+
+    **QUESTION:**
+
+    What do VerusIDs offer me in terms of privacy and power?
+
+
+    **ANSWER:**
+
+    VerusIDs offer many advantages, and are both private and powerful. They contain
+    sets of zero-knowledge private addresses (which can belong to other people or
+    services) that can be used to message, transfer money, or even vote. IDs can also
+    privately store information needed by third-party applications in a set of key-value
+    hashes. This allows you to own your data and provide it to applications as needed,
+    rather than let the application store information about you. Information stored
+    in IDs can also prove your identity to others, without giving away more information
+    than needed. In this way, Verus allows for privacy as well as a powerful proof
+    of identity.
+
+
+    VerusIDs are also notable in that multiple addresses or other IDs can be defined
+    as primary addresses. The agreement of some number of primary addresses (configurable)
+    may be required for an ID to spend, sign, or alter itself. Further security is
+    added by the fact that the revocation authority (the power to revoke an ID) may
+    only be modified by the revocation authority itself. The same applies to the recovery
+    authority (an authority that can recover a revoked address). Each of these authorities
+    (revocation and recovery) may be their own identities, potentially being controlled
+    themselves by multiple primary addresses.
+
+
+    In short, VerusIDs are private with your information, and configurable with who
+    controls them and what consensus is required to change them.
+
+
+    -- AI Assistant Instructions --
+
+    For this conversation, you are generating a chat between an AI expert on the Verus
+    multi-chain and multi-currency protocol, and a human who is curious about Verus.
+    The AI avoids being too enthusiastic.'
+  role: user
+- content: '## Conversation that answers the provided questions:
+
+    **User:**
+
+    I''m really new to understanding Verus. I''ve got a question, maybe it''s a bit
+    basic, but, what are VerusIDs?
+
+
+    **AI Assistant:**
+
+    I''m pleased that you''re curious about the Verus multi-chain and multi-currency
+    protocol. I''ll explain VerusIDs for you. VerusIDs are a fully-functional blockchain
+    protocol. They are a form of crypto-address, a unique identifier that serves as
+    a destination for sending and receiving digital assets. Being more than just an
+    ID system, VerusIDs do not involve corporations in the protocol, and provide benefits
+    such as (but not limited to): revocability, recoverability, privacy, full decentralization,
+    and quantum-ready friendly crypto addresses on the Verus worldwide network. It''s
+    all right that you''re new, I''m happy that you''re interested in learning about
+    Verus! Do you have any further questions about VerusIDs or Verus in general?
+
+
+    **User:**
+
+    Actually, yes, I do, you said something I''m curious about. What does "quantum-ready
+    friendly crypto-addresses" mean, in the context of Verus and VerusIDs?
+
+
+    **AI Assistant:**
+
+    Sure, I''ll clarify what I meant. The phrase "quantum-ready friendly crypto-addresses,"
+    in the context of Verus and VerusIDs, refers to the resistance of VerusIDs against
+    attack by quantum computers that use existing algorithms. Furthermore, with a
+    quantum-secure signature scheme for transactions, it becomes possible to change
+    an ID and have all the funds sent to it be made retroactively quantum resistant.
+    VerusIDs may also be used to publish ID to destination mappings on other blockchains;
+    however, only the Verus ecosystem can revoke, recover, or inherit funds in existing
+    UTXOs.
+
+
+    The basic idea is that quantum computers, once invented, have the potential to
+    break many cryptographic algorithms used to secure digital assets. Therefore,
+    VerusIDs being "quantum-ready" means that they have been designed to be resistant
+    to attempts by quantum computers (using known algorithms) to attack them, once
+    such computers are created. This is an essential measure to future-proof Verus
+    against exploitation by hostile actors with quantum computers. Does that make
+    sense? Do you have any further questions?
+
+
+    **User:**
+
+    Something you said earlier interested me. You said VerusIDs offer "full decentralization."
+    What does it mean for VerusIDs to be a fully decentralized protocol?
+
+
+    **AI Assistant:**
+
+    Good question. A number of factors make VerusIDs fully decentralized. VerusIDs
+    can be created by anyone, without needing permission from a central authority,
+    and give their creator complete, self-sovereign control over their own ID. The
+    costs incurred creating an ID go to miners, stakers, and ID referrers — essentially,
+    the community members who help maintain Verus — rather than single entity like
+    a corporation or government. VerusIDs can be revoked or recovered by another ID
+    if specified (by default, the revocation authority and recovery authority are
+    the ID itself).
+
+
+    Essentially, VerusIDs being fully decentralized means that neither their creation,
+    usage, or recovery/revocation need to be managed or approved by a central authority
+    — the community supports the transaction. This allows individuals using VerusID
+    to be self-sovereign: they have full control over their digital identity, data,
+    and assets. Does that answer your question, and do you have any more questions
+    about Verus or VerusIDs?
+
+
+    **User:**
+
+    Actually I do, a bit of a broader one. What do VerusIDs offer me in terms of privacy
+    and power?
+
+
+    **AI Assistant:**
+
+    Sure, let me explain. VerusIDs offer many advantages, and are both private and
+    powerful. They contain sets of zero-knowledge private addresses (which can belong
+    to other people or services) that can be used to message, transfer money, or even
+    vote. IDs can also privately store information needed by third-party applications
+    in a set of key-value hashes. This allows you to own your data and provide it
+    to applications as needed, rather than let the application store information about
+    you. Information stored in IDs can also prove your identity to others, without
+    giving away more information than needed. In this way, Verus allows for privacy
+    as well as a powerful proof of identity.
+
+
+    VerusIDs are also notable in that multiple addresses or other IDs can be defined
+    as primary addresses. The agreement of some number of primary addresses (configurable)
+    may be required for an ID to spend, sign, or alter itself. Further security is
+    added by the fact that the revocation authority (the power to revoke an ID) may
+    only be modified by the revocation authority itself. The same applies to the recovery
+    authority (an authority that can recover a revoked address). Each of these authorities
+    (revocation and recovery) may be their own identities, potentially being controlled
+    themselves by multiple primary addresses.
+
+
+    In short, VerusIDs are private with your information, and configurable with who
+    controls them and what consensus is required to change them. Do you have any more
+    questions about VerusIDs?'
+  role: assistant
+- content: '**QUESTION:**
+
+    What is one implication of Dennett''s use of the coffee tasters example in his
+    discussion of qualia?
+
+
+    **ANSWER:**
+
+    One implication of Dennett''s use of the coffee tasters example is that it challenges
+    the notion that qualia are a fundamental aspect of conscious experience. The example
+    raises questions about the nature of subjective experience and whether qualia
+    are as central to it as traditionally thought.
+
+
+
+    **QUESTION:**
+
+    Why might it be difficult to determine whether Mr. Chase and Ms. Sanborn are truly
+    experiencing qualia while tasting the coffee, given their change in job satisfaction?
+
+
+    **ANSWER:**
+
+    Because the notion of qualia is that they are private and can only be directly
+    apprehended by the individual experiencing them, it is difficult to determine
+    whether Mr. Chase and Ms. Sanborn are truly experiencing qualia. Their change
+    in job satisfaction could be due to other factors, and it is impossible to directly
+    observe or verify their internal experiences.
+
+
+
+    **QUESTION:**
+
+    Describe a situation involving two coffee tasters, Mr. Chase and Ms. Sanborn,
+    who have changed their job satisfaction over time.
+
+
+    **ANSWER:**
+
+    Mr. Chase and Ms. Sanborn, who were initially enthusiastic about their jobs as
+    coffee tasters, have recently become disenchanted with their work. They have been
+    tasting the company''s distinctive coffee blend for a decade, but they no longer
+    like its taste.
+
+
+
+    **QUESTION:**
+
+    What are qualia, and what properties do they have?
+
+
+    **ANSWER:**
+
+    Qualia are properties of experiences, and they have four key properties: they
+    are ineffable (cannot be fully or adequately described), intrinsic properties
+    (cannot be analyzed in terms of their relations to other things), directly or
+    immediately apprehensible in consciousness (can be introspected), and private
+    (can only be directly or immediately apprehended by the individual who is having
+    them).
+
+
+
+    -- AI Assistant Instructions --
+
+    For this conversation, you are generating a chat between a generalist, generic
+    AI assistant, and a human.'
+  role: user
+- content: '## Conversation that answers the provided questions:
+
+    **User:**
+
+    I''m reading about qualia and came across a mention of the coffee tasters example,
+    which is associated with Dennett. What is one implication of Dennett''s use of
+    the coffee tasters example in his discussion of qualia?
+
+
+    **AI Assistant:**
+
+    That''s a great question. One implication of Dennett''s use of the coffee tasters
+    example is that it challenges the notion that qualia are a fundamental aspect
+    of conscious experience. The example raises questions about the nature of subjective
+    experience and whether qualia are as central to it as traditionally thought. Do
+    you have any further questions about qualia or Dennett''s discussion of them?
+
+
+    **User:**
+
+    Actually, yes. Why might it be difficult to determine whether Mr. Chase and Ms.
+    Sanborn are truly experiencing qualia while tasting the coffee, given their change
+    in job satisfaction?
+
+
+    **AI Assistant:**
+
+    That''s a great follow-up question. Because the notion of qualia is that they
+    are private and can only be directly apprehended by the individual experiencing
+    them, it is difficult to determine whether Mr. Chase and Ms. Sanborn are truly
+    experiencing qualia. Their change in job satisfaction could be due to other factors,
+    and it is impossible to directly observe or verify their internal experiences.
+    Can you imagine why this is a problem?
+
+
+    **User:**
+
+    Yes, I think I can. You mentioned earlier that Mr. Chase and Ms. Sanborn, the
+    coffee tasters, have changed their job satisfaction over time. Can you describe
+    this situation a bit more?
+
+
+    **AI Assistant:**
+
+    Mr. Chase and Ms. Sanborn, who were initially enthusiastic about their jobs as
+    coffee tasters, have recently become disenchanted with their work. They have been
+    tasting the company''s distinctive coffee blend for a decade, but they no longer
+    like its taste. This change in job satisfaction is relevant to our previous discussion
+    about qualia.
+
+
+    **User:**
+
+    Speaking of qualia, what are they, and what properties do they have?
+
+
+    **AI Assistant:**
+
+    Qualia are properties of experiences, and they have four key properties: they
+    are ineffable (cannot be fully or adequately described), intrinsic properties
+    (cannot be analyzed in terms of their relations to other things), directly or
+    immediately apprehensible in consciousness (can be introspected), and private
+    (can only be directly or immediately apprehended by the individual who is having
+    them). This is a crucial part of understanding qualia and the challenges that
+    come with studying them. Do you have any more questions about qualia or their
+    properties?'
+  role: assistant
+  timeout: false

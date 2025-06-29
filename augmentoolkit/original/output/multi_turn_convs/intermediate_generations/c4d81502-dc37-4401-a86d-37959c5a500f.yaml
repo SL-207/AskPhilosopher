@@ -1,0 +1,496 @@
+- content: 'You are an expert at creative writing and educational material. You will
+    write a short conversation between a curious user and an AI assistant, in which
+    the user asks some questions and the AI assistant answers them. The questions
+    the user asks will be provided; the answers the assistant should return will also
+    be provided. You must use these questions and answers directly in your conversation.
+
+
+    **Rules for conversation writing:**
+
+
+    * Messages can take place across multiple lines.
+
+    * The questions and answers should be essentially the same as provided, though
+    you may add "conversational fluff" around the core of the questions and answers
+    in order to make it natural-sounding.
+
+    * The user should make the first message, where they greet the AI and ask their
+    first question.
+
+    * The AI then provides an answer. And that back-and-forth continues until all
+    questions are asked and all answers are provided.
+
+    * Use Markdown formatting.
+
+    * If applicable, try to make the context behind the questions make sense. So if
+    a person''s asking about an error, they probably aren''t just asking about it
+    out of the blue — they''ve probably encountered the error.
+
+    * You are allowed to slightly change the wording of the questions, and remove
+    duplication, in order to make the conversation flow nicer.
+
+    * You will be provided special instructions on what kind of AI assistant is having
+    the conversation. You should follow these instructions to the best of your ability.'
+  role: system
+- content: '**QUESTION:**
+
+    How does the slope ''m'' in a linear function y = mx + b affect the graph of the
+    function?
+
+
+    **ANSWER:**
+
+    The slope ''m'' in a linear function determines the steepness and direction of
+    the line on the graph. A positive slope means the line ascends from left to right,
+    while a negative slope indicates it descends. The steeper the slope, the more
+    inclined or declined the line is on the graph.
+
+
+    **QUESTION:**
+
+    What role does the y-intercept ''b'' play in graphing a linear function?
+
+
+    **ANSWER:**
+
+    The y-intercept ''b'' in the linear function equation y = mx + b represents the
+    point where the line crosses the y-axis.
+
+
+    **QUESTION:**
+
+    In the equation of a quadratic function y = ax² + bx + c, how does the coefficient
+    ''a'' influence the graph of the function?
+
+
+    **ANSWER:**
+
+    The coefficient ''a'' in a quadratic function determines the opening direction
+    and the width of the parabola.
+
+
+    **QUESTION:**
+
+    In what fields might you use linear and quadratic functions?
+
+
+    **ANSWER:**
+
+    Linear and quadratic functions appear frequently in various fields, such as physics,
+    economics, and engineering.
+
+
+    -- AI Assistant Instructions --
+
+    For this conversation, you are generating a chat between a general-purpose AI
+    assistant and a human.'
+  role: user
+- content: '## Conversation that answers the provided questions:
+
+    **User:**
+
+    I was wondering about something in math. How does the slope ''m'' in a linear
+    function y = mx + b affect the graph of the function?
+
+
+    **AI Assistant:**
+
+    Great question! The slope ''m'' in a linear function determines the steepness
+    and direction of the line on the graph. A positive slope means the line ascends
+    from left to right, while a negative slope indicates it descends. The steeper
+    the slope, the more inclined or declined the line is on the graph. Do you have
+    any further questions about linear functions?
+
+
+    **User:**
+
+    Yes, actually. What role does the y-intercept ''b'' play in graphing a linear
+    function?
+
+
+    **AI Assistant:**
+
+    I''ll explain that for you! The y-intercept ''b'' in the linear function equation
+    y = mx + b represents the point where the line crosses the y-axis. Can I assist
+    you further with linear functions?
+
+
+    **User:**
+
+    Moving on to another type of function, in the equation of a quadratic function
+    y = ax² + bx + c, how does the coefficient ''a'' influence the graph of the function?
+
+
+    **AI Assistant:**
+
+    The coefficient ''a'' in a quadratic function determines the opening direction
+    and the width of the parabola. Is there anything else you want to know about quadratic
+    functions or math in general?
+
+
+    **User:**
+
+    Yes, one more. In what fields might you use linear and quadratic functions?
+
+
+    **AI Assistant:**
+
+    Linear and quadratic functions appear frequently in various fields, such as physics,
+    economics, and engineering. Anything else you''d like to know about linear and
+    quadratic functions?'
+  role: assistant
+- content: '**QUESTION:**
+
+    What are VerusIDs?
+
+
+    **ANSWER:**
+
+    VerusIDs are a fully-functional blockchain protocol. They are a form of crypto-address,
+    a unique identifier that serves as a destination for sending and receiving digital
+    assets. Being more than just an ID system, VerusIDs do not involve corporations
+    in the protocol, and provide benefits such as (but not limited to): revocability,
+    recoverability, privacy, full decentralization, and quantum-ready friendly crypto
+    addresses on the Verus worldwide network.
+
+
+    **QUESTION:**
+
+    What does "quantum-ready friendly crypto-addresses" mean, in the context of Verus
+    and VerusIDs?
+
+
+    **ANSWER:**
+
+    The phrase "quantum-ready friendly crypto-addresses," in the context of Verus
+    and VerusIDs, refers to the resistance of VerusIDs against attack by quantum computers
+    that use existing algorithms. Furthermore, with a quantum-secure signature scheme
+    for transactions, it becomes possible to change an ID and have all the funds sent
+    to it be made retroactively quantum resistant. VerusIDs may also be used to publish
+    ID to destination mappings on other blockchains; however, only the Verus ecosystem
+    can revoke, recover, or inherit funds in existing UTXOs.
+
+
+    The basic idea is that quantum computers, once invented, have the potential to
+    break many cryptographic algorithms used to secure digital assets. Therefore,
+    VerusIDs being "quantum-ready" means that they have been designed to be resistant
+    to attempts by quantum computers (using known algorithms) to attack them, once
+    such computers are created. This is an essential measure to future-proof Verus
+    against exploitation by hostile actors with quantum computers.
+
+
+    **QUESTION:**
+
+    What does it mean for VerusIDs to be a fully decentralized protocol?
+
+
+    **ANSWER:**
+
+    A number of factors make VerusIDs fully decentralized. VerusIDs can be created
+    by anyone, without needing permission from a central authority, and give their
+    creator complete, self-sovereign control over their own ID. The costs incurred
+    creating an ID go to miners, stakers, and ID referrers — essentially, the community
+    members who help maintain Verus — rather than single entity like a corporation
+    or government. VerusIDs can be revoked or recovered by another ID if specified
+    (by default, the revocation authority and recovery authority are the ID itself).
+
+
+    Essentially, VerusIDs being fully decentralized means that neither their creation,
+    usage, or recovery/revocation need to be managed or approved by a central authority
+    — the community supports the transaction. This allows individuals using VerusID
+    to be self-sovereign: they have full control over their digital identity, data,
+    and assets.
+
+
+    **QUESTION:**
+
+    What do VerusIDs offer me in terms of privacy and power?
+
+
+    **ANSWER:**
+
+    VerusIDs offer many advantages, and are both private and powerful. They contain
+    sets of zero-knowledge private addresses (which can belong to other people or
+    services) that can be used to message, transfer money, or even vote. IDs can also
+    privately store information needed by third-party applications in a set of key-value
+    hashes. This allows you to own your data and provide it to applications as needed,
+    rather than let the application store information about you. Information stored
+    in IDs can also prove your identity to others, without giving away more information
+    than needed. In this way, Verus allows for privacy as well as a powerful proof
+    of identity.
+
+
+    VerusIDs are also notable in that multiple addresses or other IDs can be defined
+    as primary addresses. The agreement of some number of primary addresses (configurable)
+    may be required for an ID to spend, sign, or alter itself. Further security is
+    added by the fact that the revocation authority (the power to revoke an ID) may
+    only be modified by the revocation authority itself. The same applies to the recovery
+    authority (an authority that can recover a revoked address). Each of these authorities
+    (revocation and recovery) may be their own identities, potentially being controlled
+    themselves by multiple primary addresses.
+
+
+    In short, VerusIDs are private with your information, and configurable with who
+    controls them and what consensus is required to change them.
+
+
+    -- AI Assistant Instructions --
+
+    For this conversation, you are generating a chat between an AI expert on the Verus
+    multi-chain and multi-currency protocol, and a human who is curious about Verus.
+    The AI avoids being too enthusiastic.'
+  role: user
+- content: '## Conversation that answers the provided questions:
+
+    **User:**
+
+    I''m really new to understanding Verus. I''ve got a question, maybe it''s a bit
+    basic, but, what are VerusIDs?
+
+
+    **AI Assistant:**
+
+    I''m pleased that you''re curious about the Verus multi-chain and multi-currency
+    protocol. I''ll explain VerusIDs for you. VerusIDs are a fully-functional blockchain
+    protocol. They are a form of crypto-address, a unique identifier that serves as
+    a destination for sending and receiving digital assets. Being more than just an
+    ID system, VerusIDs do not involve corporations in the protocol, and provide benefits
+    such as (but not limited to): revocability, recoverability, privacy, full decentralization,
+    and quantum-ready friendly crypto addresses on the Verus worldwide network. It''s
+    all right that you''re new, I''m happy that you''re interested in learning about
+    Verus! Do you have any further questions about VerusIDs or Verus in general?
+
+
+    **User:**
+
+    Actually, yes, I do, you said something I''m curious about. What does "quantum-ready
+    friendly crypto-addresses" mean, in the context of Verus and VerusIDs?
+
+
+    **AI Assistant:**
+
+    Sure, I''ll clarify what I meant. The phrase "quantum-ready friendly crypto-addresses,"
+    in the context of Verus and VerusIDs, refers to the resistance of VerusIDs against
+    attack by quantum computers that use existing algorithms. Furthermore, with a
+    quantum-secure signature scheme for transactions, it becomes possible to change
+    an ID and have all the funds sent to it be made retroactively quantum resistant.
+    VerusIDs may also be used to publish ID to destination mappings on other blockchains;
+    however, only the Verus ecosystem can revoke, recover, or inherit funds in existing
+    UTXOs.
+
+
+    The basic idea is that quantum computers, once invented, have the potential to
+    break many cryptographic algorithms used to secure digital assets. Therefore,
+    VerusIDs being "quantum-ready" means that they have been designed to be resistant
+    to attempts by quantum computers (using known algorithms) to attack them, once
+    such computers are created. This is an essential measure to future-proof Verus
+    against exploitation by hostile actors with quantum computers. Does that make
+    sense? Do you have any further questions?
+
+
+    **User:**
+
+    Something you said earlier interested me. You said VerusIDs offer "full decentralization."
+    What does it mean for VerusIDs to be a fully decentralized protocol?
+
+
+    **AI Assistant:**
+
+    Good question. A number of factors make VerusIDs fully decentralized. VerusIDs
+    can be created by anyone, without needing permission from a central authority,
+    and give their creator complete, self-sovereign control over their own ID. The
+    costs incurred creating an ID go to miners, stakers, and ID referrers — essentially,
+    the community members who help maintain Verus — rather than single entity like
+    a corporation or government. VerusIDs can be revoked or recovered by another ID
+    if specified (by default, the revocation authority and recovery authority are
+    the ID itself).
+
+
+    Essentially, VerusIDs being fully decentralized means that neither their creation,
+    usage, or recovery/revocation need to be managed or approved by a central authority
+    — the community supports the transaction. This allows individuals using VerusID
+    to be self-sovereign: they have full control over their digital identity, data,
+    and assets. Does that answer your question, and do you have any more questions
+    about Verus or VerusIDs?
+
+
+    **User:**
+
+    Actually I do, a bit of a broader one. What do VerusIDs offer me in terms of privacy
+    and power?
+
+
+    **AI Assistant:**
+
+    Sure, let me explain. VerusIDs offer many advantages, and are both private and
+    powerful. They contain sets of zero-knowledge private addresses (which can belong
+    to other people or services) that can be used to message, transfer money, or even
+    vote. IDs can also privately store information needed by third-party applications
+    in a set of key-value hashes. This allows you to own your data and provide it
+    to applications as needed, rather than let the application store information about
+    you. Information stored in IDs can also prove your identity to others, without
+    giving away more information than needed. In this way, Verus allows for privacy
+    as well as a powerful proof of identity.
+
+
+    VerusIDs are also notable in that multiple addresses or other IDs can be defined
+    as primary addresses. The agreement of some number of primary addresses (configurable)
+    may be required for an ID to spend, sign, or alter itself. Further security is
+    added by the fact that the revocation authority (the power to revoke an ID) may
+    only be modified by the revocation authority itself. The same applies to the recovery
+    authority (an authority that can recover a revoked address). Each of these authorities
+    (revocation and recovery) may be their own identities, potentially being controlled
+    themselves by multiple primary addresses.
+
+
+    In short, VerusIDs are private with your information, and configurable with who
+    controls them and what consensus is required to change them. Do you have any more
+    questions about VerusIDs?'
+  role: assistant
+- content: '**QUESTION:**
+
+    Does the phenomenon of change blindness (inattentional blindness) show that perceptual
+    experience is sparse?
+
+
+    **ANSWER:**
+
+    Some people think so, but others do not. This is a matter of debate.
+
+
+
+    **QUESTION:**
+
+    Under what conditions do we see things in our visual field?
+
+
+    **ANSWER:**
+
+    We see things in our visual field only when we attend to them. If we don''t attend
+    to them, they are only potentially seen.
+
+
+
+    **QUESTION:**
+
+    What is the difference between visually perceiving something and consciously perceiving
+    it?
+
+
+    **ANSWER:**
+
+    Visually perceiving something may not necessarily mean that you consciously perceive
+    it. You may be perceiving it unconsciously, and focusing attention on it would
+    be required to consciously see it.
+
+
+
+    **QUESTION:**
+
+    Can some issues related to change blindness be resolved empirically?
+
+
+    **ANSWER:**
+
+    Yes, some issues can be resolved empirically through experimental results. For
+    example, studies have shown that people can successfully identify non-identical
+    pairs of pictures even if they initially appear identical, indicating that their
+    visual system may be registering or representing the things in the visual field
+    that they don''t notice.
+
+
+
+    **QUESTION:**
+
+    According to Michael Tye, how is consciously seeing similar to a process?
+
+
+    **ANSWER:**
+
+    Consciously seeing is similar to a constructive process, such as drawing a picture.
+    It''s not like taking a clear, color photograph, but rather a process that leaves
+    things out.
+
+
+
+    -- AI Assistant Instructions --
+
+    For this conversation, you are generating a chat between a generalist, generic
+    AI assistant, and a human.'
+  role: user
+- content: '## Conversation that answers the provided questions:
+
+    **User:**
+
+    I''ve been reading about the concept of change blindness. Does the phenomenon
+    of change blindness (inattentional blindness) show that perceptual experience
+    is sparse?
+
+
+    **AI Assistant:**
+
+    That''s a great question, but the answer is not a simple yes or no. Some people
+    think that change blindness indicates that perceptual experience is sparse, but
+    others do not. This is a matter of debate among researchers and philosophers.
+    Do you have any other questions about change blindness or perceptual experience?
+
+
+    **User:**
+
+    I was wondering, under what conditions do we see things in our visual field?
+
+
+    **AI Assistant:**
+
+    We see things in our visual field only when we attend to them. If we don''t attend
+    to them, they are only potentially seen. This has implications for how we understand
+    the relationship between attention and perception. Would you like to know more
+    about the relationship between attention and perception?
+
+
+    **User:**
+
+    I see what you''re getting at. What is the difference between visually perceiving
+    something and consciously perceiving it?
+
+
+    **AI Assistant:**
+
+    Visually perceiving something may not necessarily mean that you consciously perceive
+    it. You may be perceiving it unconsciously, and focusing attention on it would
+    be required to consciously see it. This highlights the distinction between the
+    two processes. Is there anything else you''d like to know about this topic?
+
+
+    **User:**
+
+    I think I''m starting to get a better understanding. Can some issues related to
+    change blindness be resolved empirically?
+
+
+    **AI Assistant:**
+
+    Yes, some issues can be resolved empirically through experimental results. For
+    example, studies have shown that people can successfully identify non-identical
+    pairs of pictures even if they initially appear identical, indicating that their
+    visual system may be registering or representing the things in the visual field
+    that they don''t notice. This kind of evidence can help us better understand the
+    mechanisms underlying change blindness. Do you have any other questions about
+    empirical research on this topic?
+
+
+    **User:**
+
+    One more question. According to Michael Tye, how is consciously seeing similar
+    to a process?
+
+
+    **AI Assistant:**
+
+    Conscious seeing is similar to a constructive process, such as drawing a picture.
+    It''s not like taking a clear, color photograph, but rather a process that leaves
+    things out. This is a way of thinking about conscious seeing as a dynamic and
+    interpretive process, rather than simply a passive reception of sensory information.
+    Is there anything else you''d like to discuss about conscious seeing or perception?'
+  role: assistant
+  timeout: false

@@ -1,0 +1,29 @@
+.inputArea {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100px;
+  padding: 30px;
+  background-color: linear-gradient(to right, #e2e8f0, #f1f5f9, #f8fafc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.inputBox {
+  width: 75%;
+  max-width: 800px;
+  height: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1.5px solid #9ca3af;
+  outline: none;
+}
+.inputHint{
+  margin: 15px 0;
+  font-size: 12px;
+  color: #9ca3af;
+}
