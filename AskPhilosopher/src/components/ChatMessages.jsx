@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import styles from "./messages.module.css";
 
 const msgStyle = (sender) => ({
@@ -8,8 +9,13 @@ const msgStyle = (sender) => ({
 });
 
 function ChatMessages({ messages }) {
+  const chat = useRef(null);
+  useEffect(() => {
+    // Scroll to bottom
+    chat.current.scrollTop = chat.current.scrollHeight;
+  });
   return (
-    <div className={styles.messagesContainer}>
+    <div className={styles.messagesContainer} ref={chat}>
       {messages.map((message, index) =>
         message.from !== "system" ? (
           <div

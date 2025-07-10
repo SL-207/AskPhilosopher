@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   min-height: 100px;
-  padding: 30px;
+  padding: 20px;
   background-color: linear-gradient(to right, #e2e8f0, #f1f5f9, #f8fafc);
   display: flex;
   justify-content: center;
@@ -21,6 +21,7 @@
   border-radius: 10px;
   border: 1.5px solid #9ca3af;
   outline: none;
+  line-height: 1.5;
 }
 .inputHint{
   margin: 15px 0;

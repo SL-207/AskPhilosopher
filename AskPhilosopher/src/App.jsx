@@ -6,6 +6,7 @@ import ChatInput from "./components/ChatInput";
 import "./App.css";
 
 function App() {
+  const [isSending, setIsSending] = useState(false);
   const [messages, setMessages] = useState([
     {
       from: "system",
@@ -26,7 +27,12 @@ function App() {
     <ChatContainer>
       <ChatHeader />
       <ChatMessages messages={messages} />
-      <ChatInput messages={messages} setMessages={setMessages} />
+      <ChatInput
+        messages={messages}
+        setMessages={setMessages}
+        isSending={isSending}
+        setIsSending={setIsSending}
+      />
     </ChatContainer>
   );
 }
