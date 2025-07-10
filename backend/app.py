@@ -8,7 +8,6 @@ from peft import PeftModel, PeftConfig
 import torch
 from rag_db_creation import vectorstore
 
-login("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")
 
 model_id = "sl207/tiny-llama-finetuned-philosopherv2"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
@@ -23,7 +22,7 @@ model = PeftModel.from_pretrained(base_model, model_id)
 model = model.to("cpu")
 model.eval()
 streamer = TextStreamer(tokenizer)
-# eos_token_id = tokenizer.convert_tokens_to_ids("<|endoftext|>")
+eos_token_id = tokenizer.convert_tokens_to_ids("<")
 # data = [
 #     {
 #         "from": "system",
@@ -43,7 +42,7 @@ def apply_rag(messages: list[dict[str, str]]):
     query = messages[-1]["value"]
     docs = vectorstore.similarity_search(query, k=2)
     rag_text = "\n".join([doc.page_content for doc in docs])
-    messages[0]["value"] += "\nHere is some potentially-relevant context:\n " + rag_text
+    messages[0]["value"] += " Here is some potentially-relevant context:\n " + rag_text
     return messages
 
 # Format and tokenize messages
@@ -94,6 +93,8 @@ def chatbot():
         top_p=0.7,
         max_new_tokens=100,
         streamer=streamer,
+        eos_token_id=eos_token_id,
+        use_cache=True,
     )
     decoded = postprocess(inputs, output, tokenizer)
     return jsonify({"response": {"from": "gpt", "value": decoded}}), 200
