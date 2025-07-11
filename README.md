@@ -17,6 +17,7 @@ AskPhilosopher is a browser-based chat application for philosophy, incorporating
 -   **RAG**: A vector store (e.g. langchain, FAISS) is used for similarity search. The `rag_db_creation.py` script handles the creation of this database.
 
 ## Project Structure
+```
 ├── backend
 │   ├── app.py                                                # Main Flask application and API endpoint
 │   └── rag_db_creation.py                                    # Script to create the vector store for RAG
@@ -24,3 +25,4 @@ AskPhilosopher is a browser-based chat application for philosophy, incorporating
 │   └── ...
 ├── fine-tune-custom-philosophy-chatbot-llama-phi-2.ipynb     # Training notebook
 └── README.md
+```
